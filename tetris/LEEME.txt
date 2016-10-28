@@ -1,0 +1,47 @@
+Práctica de Mp2 2008 
+Israel Murillo Sánchez
+75147161-C
+Gestion B
+'''''''''''''''''''''''
+
+Índice
+|
+|- 1. Clases implementadas
+|  |- 1.1 Matriz
+|  |- 1.2 Pieza
+|  |- 1.3 Tablero
+|  |- 1.4 Cola
+|  |- 1.5 Imagen
+|  |- 1.6 Visualizador
+|  |- 1.7 Color
+|  |- 1.8 Visualizador de tablero
+|  |- 1.9 Visualizador de texto
+|  |- 1.10 Visualizador de cola
+
+|- 2. Programas Implementados
+|  |-2.1 Tetris
+
+|- 3. Compilación y generación de la documentación.
+
+
+
+
+
+1 - CLASES IMPLEMENTADAS
+'''''''''''''''''''''''''
+
+1.1 Clase Matriz
+'''''''''''''''
+
+
+
+3 - COMPILACIÓN Y EJECUCION DEL PROGRAMA
+'''''''''''''''''''''''''''''''''''''''''''''''''
+
+Tanto la documentación como los ejecutables se generan con la orden Make. Los ejecutables se generan en la carpeta bin.
+La orden "make clean" borra todos los archivos .o, libgraficos.a, y todos ls *~.
+La orden "make mrproper" borra lo mismo que clean mas los ejecutables,	 y la documentación.
+Para ejecutar el programa tetris con la configuracion clasica habrá que escribir en la linea de ordenes una de las siguientes:
+
+---> ./bin/tetris data/conf_clasico_basico.txt 
+---> ./tetris ../data/conf_clasico_basico.txt
